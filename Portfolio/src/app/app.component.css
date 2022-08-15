@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.header-container {
+    padding: 15vh 0 75vh;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.btn-msg {
+    color:#7510F7;
+    background-color:#FFFFFF;
+    border-radius:50px;
+    border-color:#7510F7;
+
+    transition: 500ms;
+}
+.btn-msg:hover {
+    color:#FFFFFF;
+    background-color: #7510F7;
+    border-radius:50px;
+    border-color:#7510F7;
+}
+.btn-msg:hover::after {
+    animation-name: fade-out;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+.btn-contact {
+    position: absolute;
+    right: 0;
+    width: 10vw;
+    height: 7vh;
+    margin: 50px 50px 50px;
+}
+
+.secondary-header {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.gif {
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+    height: 45vh;
+    width: 50vw;
+}
